@@ -5,6 +5,7 @@
   "dependencies": {
     "apollo-cache-inmemory": "^1.4.2",
     "apollo-client": "^2.4.12",
+    "apollo-link": "^1.2.8",
     "apollo-link-state": "^0.4.2",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
@@ -24,6 +25,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "resolutions": {
+    "ajv": "6.8.1"
   },
   "browserslist": [
     ">0.2%",
