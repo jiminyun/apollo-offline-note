@@ -27,6 +27,7 @@ export default class Edit extends React.Component {
             <Mutation mutation={EDIT_NOTE}>
               {editNote => {
                 this.editNote = editNote;
+                console.log(editNote);
                 return (
                   <Editor
                     title={data.note.title}
